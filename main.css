@@ -1,0 +1,46 @@
+
+
+.reset {
+	display: block;
+	position: relative;
+	top: 25px;
+	margin: auto;
+}
+
+.frame {
+	margin: 20px auto 0;
+	padding: 50px 30px;
+	width: 575px;
+	background-color: darkred;
+	border-radius: 20px;
+}
+
+span {
+	position: relative;
+	top: -25px;
+	left: 230px;
+	color: gold;
+	font-size: 20px;
+}
+
+.wrapper {
+	display: table;
+	width: 500px; height: 300px;
+	margin: auto;
+	overflow: auto;
+	z-index: 2;
+}
+
+.row {
+	
+}
+
+.block {
+	
+	background-color: white;
+	border: 1px solid grey;
+}
+
+.selected {
+	background-color: green;
+}
